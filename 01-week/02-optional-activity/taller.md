@@ -1,11 +1,26 @@
-# ESTUDIANTE DEL SENA – 3239137
-## Andrés Camilo Pérez Mendoza
+<!--
+CONFIG
+FULL_NAME: Andres Camilo Perez Mendonza
+GITHUB_USER: camiliss03-cell
+EMAIL: camiliss03@gmail.com
+CODE_ORGANIZATION: code-sena
+-->
 
-## ¿Quién soy?
-Soy una persona creativa, amable y colaboradora. Me gusta ayudar a los demás y trabajar en equipo, aportando siempre lo mejor de mí a mis compañeros. En el ámbito laboral, tengo experiencia en la reparación de celulares y, en mis tiempos libres, disfruto cocinar. Actualmente estudio **Análisis y Desarrollo de Software**, un área que me reta y me impulsa a crecer constantemente.
+<h1 align="center">Andres Camilo Perez Mendoza</h1>
 
-## ¿Qué me motiva?
-Me motivan los retos y los objetivos claros. Soy una persona que se propone metas y trabaja con disciplina para cumplirlas. Me caracterizo por tener un fuerte sentido de pertenencia, compromiso y una buena fuerza de voluntad para enfrentar las dificultades.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=juanperezdev&label=Profile%20views&style=flat-square&color=brightgreen" alt="Profile views">
+</p>
 
-## ¿Qué estoy construyendo?
-Estoy construyendo mi proyecto de vida dentro del campo del **Análisis y Desarrollo de Software**. Me apasiona aprender cómo se diseñan y desarrollan juegos, páginas web y otras soluciones digitales, con la meta de seguir creciendo tanto a nivel personal como profesional.
+---
+
+## 📌 Perfil
+- **Nombre:** Andres camilo perez mendoza
+- **GitHub:** [@camiliss03-cell]([https://github.com/camiliss03-cell)
+- **Email:** [camiliss03@gmail.com](mailto:camiliss03@gmail.com)
+- **Organización institucional:** [code-sena](https://github.com/code-sena)
+
+---
+
+## 🚀 Repositorio institucional
+Este repositorio está asociado a la organización **code-sena**.
