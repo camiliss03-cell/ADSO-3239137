@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel background="#1e1e1e" dx="1500" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="1">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ==================== PRODUCTO ==================== -->
+    <!-- Entity -->
+    <mxCell id="e_producto" value="Producto" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=0;" vertex="1" parent="1">
+      <mxGeometry x="140" y="200" width="130" height="50" as="geometry" />
+    </mxCell>
+    <!-- Attributes -->
+    <mxCell id="a_prod_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="110" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_prod_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="155" y="110" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_prod_precio" value="Precio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="40" y="270" width="90" height="36" as="geometry" />
+    </mxCell>
+    <!-- Attribute lines -->
+    <mxCell id="l_prod_codigo" style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_prod_codigo" target="e_producto" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l_prod_nombre" style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_prod_nombre" target="e_producto" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l_prod_precio" style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_prod_precio" target="e_producto" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ==================== PEDIDO ==================== -->
+    <mxCell id="e_pedido" value="Pedido" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="580" y="200" width="130" height="50" as="geometry" />
+    </mxCell>
+    <!-- Attributes -->
+    <mxCell id="a_ped_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="100" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_ped_prod_cod" value="Producto_código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="610" y="100" width="110" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_ped_ciudad" value="ciudad_origen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="730" y="100" width="110" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_ped_barrio" value="barrio_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="720" y="200" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_ped_dir" value="dirección" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="490" y="270" width="90" height="36" as="geometry" />
+    </mxCell>
+    <!-- Attribute lines -->
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_ped_codigo" target="e_pedido" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_ped_prod_cod" target="e_pedido" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_ped_ciudad" target="e_pedido" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_ped_barrio" target="e_pedido" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_ped_dir" target="e_pedido" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Relación Producto-Pedido -->
+    <mxCell id="r_prod_ped" value="hace" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="198" width="100" height="54" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="e_producto" target="r_prod_ped" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="r_prod_ped" target="e_pedido" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <!-- Cardinalidades Producto-Pedido -->
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="288" y="195" width="40" height="20" as="geometry" />
+    </mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="490" y="195" width="40" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ==================== CONTINENTE ==================== -->
+    <mxCell id="e_continente" value="Continente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="130" y="520" width="140" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="a_cont_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="20" y="430" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_cont_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="510" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_cont_desc" value="Descripción" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="590" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_cont_codigo" target="e_continente" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_cont_nombre" target="e_continente" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_cont_desc" target="e_continente" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ==================== PAIS ==================== -->
+    <mxCell id="e_pais" value="País" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="580" y="520" width="130" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="a_pais_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="730" y="430" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_pais_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="730" y="500" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_pais_desc" value="Descripción" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="730" y="570" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_pais_cont_id" value="continente_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="730" y="640" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_pais_codigo" target="e_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_pais_nombre" target="e_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_pais_desc" target="e_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_pais_cont_id" target="e_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Relación Continente-Pais -->
+    <mxCell id="r_cont_pais" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="518" width="100" height="54" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="e_continente" target="r_cont_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="r_cont_pais" target="e_pais" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="285" y="515" width="40" height="20" as="geometry" />
+    </mxCell>
+    <mxCell value="1:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="490" y="515" width="40" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ==================== DEPARTAMENTO ==================== -->
+    <mxCell id="e_departamento" value="Departamento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="120" y="820" width="150" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="a_dep_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="10" y="730" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_dep_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="810" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_dep_desc" value="Descripción" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="890" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_dep_pais_id" value="Pais_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="10" y="970" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_dep_codigo" target="e_departamento" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_dep_nombre" target="e_departamento" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_dep_desc" target="e_departamento" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_dep_pais_id" target="e_departamento" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ==================== MUNICIPIO ==================== -->
+    <mxCell id="e_municipio" value="Municipio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="580" y="820" width="130" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="a_mun_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="730" y="730" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_mun_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="730" y="800" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_mun_desc" value="Descripción" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="730" y="870" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_mun_dep_id" value="Departamento_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="730" y="940" width="100" height="36" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_mun_codigo" target="e_municipio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_mun_nombre" target="e_municipio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_mun_desc" target="e_municipio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_mun_dep_id" target="e_municipio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Relación Pais-Departamento (tiene, vertical) -->
+    <mxCell id="r_pais_dep" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="668" width="100" height="54" as="geometry" />
+    </mxCell>
+    <!-- Pais -> rombo -->
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#aaaaaa;endArrow=none;exitX=0.5;exitY=1;" edge="1" source="e_pais" target="r_pais_dep" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="645" y="620" />
+          <mxPoint x="410" y="620" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <!-- rombo -> Departamento -->
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="r_pais_dep" target="e_departamento" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="410" y="760" />
+          <mxPoint x="195" y="760" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="450" y="630" width="40" height="20" as="geometry" />
+    </mxCell>
+    <mxCell value="1:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="254" y="762" width="40" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Relación Departamento-Municipio -->
+    <mxCell id="r_dep_mun" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="818" width="100" height="54" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="e_departamento" target="r_dep_mun" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="r_dep_mun" target="e_municipio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell value="1:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="282" y="815" width="40" height="20" as="geometry" />
+    </mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="490" y="815" width="40" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ==================== BARRIO ==================== -->
+    <mxCell id="e_barrio" value="Barrio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="140" y="1110" width="120" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="a_bar_codigo" value="Código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="20" y="1030" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_bar_nombre" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="1100" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_bar_desc" value="Descripción" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="1170" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="a_bar_mun_id" value="id_municipio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="20" y="1240" width="90" height="36" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_bar_codigo" target="e_barrio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_bar_nombre" target="e_barrio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_bar_desc" target="e_barrio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#aaaaaa;" edge="1" source="a_bar_mun_id" target="e_barrio" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Relación Municipio-Barrio (tiene, vertical) -->
+    <mxCell id="r_mun_bar" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23272e;strokeColor=#aaaaaa;fontColor=#ffffff;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="360" y="970" width="100" height="54" as="geometry" />
+    </mxCell>
+    <!-- Municipio -> rombo -->
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="e_municipio" target="r_mun_bar" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="645" y="920" />
+          <mxPoint x="410" y="920" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <!-- rombo -> Barrio -->
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#aaaaaa;endArrow=none;" edge="1" source="r_mun_bar" target="e_barrio" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="410" y="1060" />
+          <mxPoint x="200" y="1060" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="458" y="925" width="40" height="20" as="geometry" />
+    </mxCell>
+    <mxCell value="1:n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#ffffff;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="254" y="1063" width="40" height="20" as="geometry" />
+    </mxCell>
+
+
+
+  </root>
+</mxGraphModel>

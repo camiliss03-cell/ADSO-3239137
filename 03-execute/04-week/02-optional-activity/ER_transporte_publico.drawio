@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel background="#0d1117" dx="1600" dy="1000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="1">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===================== USUARIO/PASAJERO ===================== -->
+    <mxCell id="e_usuario" value="Usuario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#00e5ff;fontColor=#00e5ff;fontSize=14;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="200" width="150" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_usu_id" value="id_usuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#00e5ff;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="80" width="115" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_usu_nom" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="210" y="80" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_usu_cor" value="correo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="330" y="80" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_usu_tel" value="telefono" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="210" y="280" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_usu_pass" value="contraseña" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="330" y="200" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#00e5ff;endArrow=none;strokeWidth=2;" edge="1" source="a_usu_id" target="e_usuario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_usu_nom" target="e_usuario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_usu_cor" target="e_usuario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_usu_tel" target="e_usuario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_usu_pass" target="e_usuario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ===================== CONDUCTOR ===================== -->
+    <mxCell id="e_conductor" value="Conductor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#ff9f43;fontColor=#ff9f43;fontSize=14;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="200" width="150" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_con_id" value="id_conductor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#ff9f43;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="80" width="120" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_con_nom" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="80" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_con_lic" value="licencia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1360" y="160" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_con_tel" value="telefono" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1360" y="240" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_con_estado" value="estado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="280" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#ff9f43;endArrow=none;strokeWidth=2;" edge="1" source="a_con_id" target="e_conductor" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_con_nom" target="e_conductor" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_con_lic" target="e_conductor" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_con_tel" target="e_conductor" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_con_estado" target="e_conductor" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ===================== RUTA ===================== -->
+    <mxCell id="e_ruta" value="Ruta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#26de81;fontColor=#26de81;fontSize=14;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="590" y="420" width="150" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_rut_id" value="id_ruta" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#26de81;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="460" y="310" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_rut_nom" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="590" y="310" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_rut_ori" value="origen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="720" y="310" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_rut_des" value="destino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="740" y="420" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_rut_dis" value="distancia_km" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="460" y="490" width="115" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#26de81;endArrow=none;strokeWidth=2;" edge="1" source="a_rut_id" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_rut_nom" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_rut_ori" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_rut_des" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_rut_dis" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ===================== PARADA ===================== -->
+    <mxCell id="e_parada" value="Parada" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#fd79a8;fontColor=#fd79a8;fontSize=14;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="590" y="760" width="150" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_par_id" value="id_parada" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#fd79a8;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="440" y="680" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_par_nom" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="570" y="660" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_par_lat" value="latitud" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="700" y="680" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_par_lon" value="longitud" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="740" y="780" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_par_ord" value="orden_en_ruta" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="440" y="860" width="120" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#fd79a8;endArrow=none;strokeWidth=2;" edge="1" source="a_par_id" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_par_nom" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_par_lat" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_par_lon" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_par_ord" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ===================== HORARIO ===================== -->
+    <mxCell id="e_horario" value="Horario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#a29bfe;fontColor=#a29bfe;fontSize=14;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="760" width="150" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_hor_id" value="id_horario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#a29bfe;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="650" width="115" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_hor_sal" value="hora_salida" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="210" y="650" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_hor_lle" value="hora_llegada" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="210" y="780" width="115" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_hor_fre" value="frecuencia_min" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="80" y="870" width="120" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_hor_dia" value="dias_operacion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="210" y="870" width="120" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#a29bfe;endArrow=none;strokeWidth=2;" edge="1" source="a_hor_id" target="e_horario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_hor_sal" target="e_horario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_hor_lle" target="e_horario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_hor_fre" target="e_horario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_hor_dia" target="e_horario" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ===================== GPS/UBICACION ===================== -->
+    <mxCell id="e_gps" value="GPS_Ubicacion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#55efc4;fontColor=#55efc4;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="760" width="175" height="55" as="geometry" />
+    </mxCell>
+    <mxCell id="a_gps_id" value="id_ubicacion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#55efc4;fontColor=#ffffff;fontSize=11;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="1100" y="650" width="120" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_gps_lat" value="latitud" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="650" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_gps_lon" value="longitud" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1360" y="720" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_gps_vel" value="velocidad" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1360" y="810" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="a_gps_ts" value="timestamp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#444c56;fontColor=#adbac7;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="860" width="110" height="38" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#55efc4;endArrow=none;strokeWidth=2;" edge="1" source="a_gps_id" target="e_gps" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_gps_lat" target="e_gps" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_gps_lon" target="e_gps" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_gps_vel" target="e_gps" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#444c56;endArrow=none;" edge="1" source="a_gps_ts" target="e_gps" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ======================== RELACIONES ========================= -->
+    <!-- ============================================================ -->
+
+    <!-- Usuario CONSULTA Ruta -->
+    <mxCell id="r_usu_rut" value="consulta" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#00e5ff;fontColor=#00e5ff;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="350" y="390" width="130" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00e5ff;endArrow=none;strokeWidth=2;" edge="1" source="e_usuario" target="r_usu_rut" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="155" y="255" />
+          <mxPoint x="155" y="422" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#26de81;endArrow=none;strokeWidth=2;" edge="1" source="r_usu_rut" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#00e5ff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="296" y="380" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#26de81;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="510" y="408" width="30" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Conductor OPERA Ruta -->
+    <mxCell id="r_con_rut" value="opera" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#ff9f43;fontColor=#ff9f43;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="870" y="390" width="130" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#ff9f43;endArrow=none;strokeWidth=2;" edge="1" source="e_conductor" target="r_con_rut" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1175" y="255" />
+          <mxPoint x="1175" y="422" />
+          <mxPoint x="1000" y="422" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#26de81;endArrow=none;strokeWidth=2;" edge="1" source="r_con_rut" target="e_ruta" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#ff9f43;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1036" y="405" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#26de81;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="826" y="405" width="30" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Ruta TIENE Parada -->
+    <mxCell id="r_rut_par" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#26de81;fontColor=#26de81;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="545" y="590" width="130" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#26de81;endArrow=none;strokeWidth=2;" edge="1" source="e_ruta" target="r_rut_par" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell style="edgeStyle=none;html=1;strokeColor=#fd79a8;endArrow=none;strokeWidth=2;" edge="1" source="r_rut_par" target="e_parada" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#26de81;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="608" y="484" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#fd79a8;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="608" y="665" width="30" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Ruta TIENE Horario -->
+    <mxCell id="r_rut_hor" value="tiene" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#a29bfe;fontColor=#a29bfe;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="310" y="590" width="130" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#26de81;endArrow=none;strokeWidth=2;" edge="1" source="e_ruta" target="r_rut_hor" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="590" y="447" />
+          <mxPoint x="375" y="447" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#a29bfe;endArrow=none;strokeWidth=2;" edge="1" source="r_rut_hor" target="e_horario" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="375" y="700" />
+          <mxPoint x="155" y="700" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#26de81;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="460" y="440" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#a29bfe;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="244" y="700" width="30" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Conductor EMITE GPS -->
+    <mxCell id="r_con_gps" value="emite" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#55efc4;fontColor=#55efc4;fontSize=13;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="1030" y="590" width="130" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#ff9f43;endArrow=none;strokeWidth=2;" edge="1" source="e_conductor" target="r_con_gps" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1175" y="255" />
+          <mxPoint x="1175" y="530" />
+          <mxPoint x="1095" y="530" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#55efc4;endArrow=none;strokeWidth=2;" edge="1" source="r_con_gps" target="e_gps" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1095" y="680" />
+          <mxPoint x="1187" y="680" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#ff9f43;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1136" y="553" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#55efc4;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1136" y="690" width="30" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Usuario CONSULTA GPS -->
+    <mxCell id="r_usu_gps" value="visualiza" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0d1117;strokeColor=#00e5ff;fontColor=#00e5ff;fontSize=12;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="590" y="980" width="150" height="65" as="geometry" />
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#00e5ff;endArrow=none;strokeWidth=2;dashed=1;" edge="1" source="e_usuario" target="r_usu_gps" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="80" y="228" />
+          <mxPoint x="40" y="228" />
+          <mxPoint x="40" y="1012" />
+          <mxPoint x="590" y="1012" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#55efc4;endArrow=none;strokeWidth=2;dashed=1;" edge="1" source="r_usu_gps" target="e_gps" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="740" y="1012" />
+          <mxPoint x="1500" y="1012" />
+          <mxPoint x="1500" y="787" />
+          <mxPoint x="1275" y="787" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#00e5ff;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="544" y="985" width="30" height="22" as="geometry" />
+    </mxCell>
+    <mxCell value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#55efc4;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="756" y="985" width="30" height="22" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
